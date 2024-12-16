@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 1500px;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+    align-content: flex-start;
+    padding: 30px 35px;
+}
+.athlet{
+    position: relative;
+    width: 200px;
+    height: 231px;
+}
+.athlet:hover img {
+    border-radius: 5px;
+    background: #000;
+}
+img {
+    transition: all 1;
+}
+.number{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 84px;
+    right: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    background: #FFFFFF;
+    font-family: Arial;
+    color: #8B0000;
+}
+.name{
+    position: absolute;
+    left: 13px;
+    width: 174px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
