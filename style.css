@@ -1,55 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
-    width: 500px;
-    height: 1500px;
-    background: white;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px 30px;
-    align-content: flex-start;
-    padding: 30px 35px;
-}
-.athlet{
-    position: relative;
-    width: 200px;
-    height: 231px;
-}
-.athlet:hover img {
-    border-radius: 5px;
-    background: #000;
-}
-img {
-    transition: all 1;
-}
-.number{
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    top: 84px;
-    right: 10px;
-    border-radius: 50%;
-    font-size: 15px;
-    font-weight: 900;
-    line-height: 30px;
-    text-align: center;
-    background: #FFFFFF;
-    font-family: Arial;
-    color: #8B0000;
-}
-.name{
-    position: absolute;
-    left: 13px;
-    width: 174px;
-    height: 23px;
-    font-family: Arial;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+* {    scroll-behavior: smooth;
+}img {
+    transition: all 1s;    border-radius: 100%;
+}.h { 
+    transition: all 1.5s;}
+.body {    background: #FFFFFF;
+    margin: 0;}
+.box {    background: #FFFFFF;
+    margin: 0 auto;    display: flex;
+    flex-direction: row;    flex-wrap: wrap;
+    gap: 30px;    margin-top: 30px;
+}.i {
+    width: 200px;    height: 200px;
+}img {
+    width: 200px;    height: 200px;
+    }
+.h {    width: 200px;
+    height: 261px;    box-sizing: border-box;
+}.t {
+    color: #2F4F4F;    font-family: Arial;
+    font-size: 15px;    line-height: 16px;
+    text-align: center;    font-weight: 700;
+    position: relative;    top: 10px;
+    width: 200px;}
+.n {    position: relative;
+    top: -116px;    background: #FFFFFF;
+    width: 26px;    height: 26px;
+    text-align: center;    border-radius: 100px;
+    font-size: 22px;    color: #8B0000;
+    font-family: Arial;    font-weight: 700;
+    margin-left: 158px;}
+.h:hover img {    width: 200px;
+    height: 200px;    border-radius: 60px;
+}.h:hover {
+    background: #EEEEEE;    width: 224px;
+    height: 260px;
+    padding-inline: 12px;
+    padding-top: 12px;    border-radius: 12px;
 }
