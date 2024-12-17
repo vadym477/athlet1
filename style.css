@@ -1,39 +1,103 @@
-* {    scroll-behavior: smooth;
-}img {
-    transition: all 1s;    border-radius: 100%;
-}.h { 
-    transition: all 1.5s;}
-.body {    background: #FFFFFF;
-    margin: 0;}
-.box {    background: #FFFFFF;
-    margin: 0 auto;    display: flex;
-    flex-direction: row;    flex-wrap: wrap;
-    gap: 30px;    margin-top: 30px;
-}.i {
-    width: 200px;    height: 200px;
-}img {
-    width: 200px;    height: 200px;
-    }
-.h {    width: 200px;
-    height: 261px;    box-sizing: border-box;
-}.t {
-    color: #2F4F4F;    font-family: Arial;
-    font-size: 15px;    line-height: 16px;
-    text-align: center;    font-weight: 700;
-    position: relative;    top: 10px;
-    width: 200px;}
-.n {    position: relative;
-    top: -116px;    background: #FFFFFF;
-    width: 26px;    height: 26px;
-    text-align: center;    border-radius: 100px;
-    font-size: 22px;    color: #8B0000;
-    font-family: Arial;    font-weight: 700;
-    margin-left: 158px;}
-.h:hover img {    width: 200px;
-    height: 200px;    border-radius: 60px;
-}.h:hover {
-    background: #EEEEEE;    width: 224px;
-    height: 260px;
-    padding-inline: 12px;
-    padding-top: 12px;    border-radius: 12px;
+* { 
+    scroll-behavior: smooth; 
+} 
+img { 
+    transition: all 1s; 
+    border-radius: 100%; 
+} 
+.h {  
+    transition: all 1.5s; 
+} 
+.body { 
+    background: #FFFFFF; 
+    margin: 0; 
+} 
+.box { 
+    background: #FFFFFF; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 30px; 
+    margin-top: 30px; 
+} 
+.i { 
+    width: 200px; 
+    height: 200px; 
+} 
+img { 
+    width: 200px; 
+    height: 200px; 
+     
+} 
+.h { 
+    width: 200px; 
+    height: 261px; 
+    box-sizing: border-box; 
+} 
+.t { 
+    color: #2F4F4F; 
+    font-family: Arial; 
+    font-size: 15px; 
+    line-height: 16px; 
+    text-align: center; 
+    font-weight: 700; 
+    position: relative; 
+    top: 10px; 
+    width: 200px; 
+} 
+.n { 
+    position: relative; 
+    top: -116px; 
+    background: #FFFFFF; 
+    width: 26px; 
+    height: 26px; 
+    text-align: center; 
+    border-radius: 100px; 
+    font-size: 22px; 
+    color: #8B0000; 
+    font-family: Arial; 
+    font-weight: 700; 
+    margin-left: 158px; 
+} 
+.h:hover img { 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 60px; 
+} 
+.h:hover { 
+    background: #EEEEEE; 
+    width: 224px; 
+    height: 260px; 
+    padding-inline: 12px; 
+    padding-top: 12px; 
+    border-radius: 12px; 
+} 
+@media screen and (min-width: 500px) { 
+    .box { 
+        height: 1500px; 
+        width: 500px; 
+        padding-inline: 35px; 
+    } 
+} 
+@media screen and (min-width: 750px) { 
+    .box { 
+        height: 1500px; 
+        width: 500px; 
+        padding-inline: 160px; 
+    } 
+} 
+@media screen and (min-width: 1000px) { 
+    .box { 
+        height: 1000px; 
+        width: 1000px; 
+        padding-inline: 55px; 
+    } 
+} 
+@media screen and (min-width: 1500px) { 
+    .box { 
+        height: 1000px; 
+        width: 1000px; 
+        padding-inline: 305px; 
+    } 
 }
